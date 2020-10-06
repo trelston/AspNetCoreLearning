@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -18,8 +19,11 @@ namespace SampleWebApplication.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            var request = new SampleWebApiServiceClient("https://localhost:5001/", new HttpClient());
+            var response = await request.OrderDetailsAsync(1234);
+            
             return View();
         }
 
