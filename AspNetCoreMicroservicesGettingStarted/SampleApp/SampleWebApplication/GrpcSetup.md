@@ -1,4 +1,4 @@
-﻿# Setup Grpc Service and Client
+﻿# Setup a sample Grpc Service and Client
 
 1. Create a Sample Grpc Service using the template
 
