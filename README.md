@@ -1,3 +1,3 @@
 # AspNetCoreLearning
 
-Code snippets/projects to lean asp.net core
+Code hacks/snippets/projects to lean asp.net core
