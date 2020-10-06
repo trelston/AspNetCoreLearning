@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApiService", "SampleWebApiService\SampleWebApiService.csproj", "{4D0F2546-38DA-4047-B2E1-6CAC2C0493B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApplication", "SampleWebApplication\SampleWebApplication.csproj", "{45C1BC4D-FFDB-4355-9CCE-EAFF3F9ACF13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{4D0F2546-38DA-4047-B2E1-6CAC2C0493B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D0F2546-38DA-4047-B2E1-6CAC2C0493B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D0F2546-38DA-4047-B2E1-6CAC2C0493B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45C1BC4D-FFDB-4355-9CCE-EAFF3F9ACF13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C1BC4D-FFDB-4355-9CCE-EAFF3F9ACF13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C1BC4D-FFDB-4355-9CCE-EAFF3F9ACF13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C1BC4D-FFDB-4355-9CCE-EAFF3F9ACF13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
