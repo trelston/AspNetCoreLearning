@@ -23,7 +23,7 @@
     ```
 5. Build the solution and run it.
 
-6. if you go to the endpoint _https://localhost:5001/swagger/v1/swagger.json_, you should see the details of
+6. If you go to the endpoint _https://localhost:5001/swagger/v1/swagger.json_, you should see the details of
    the endpoints the webapi exposes
 
-7. _https://localhost:5001/swagger_ gives a nice looking UI
+7. _https://localhost:5001/swagger_ gives a nice looking UI which you can also yu use to test your service.
