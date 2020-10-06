@@ -1,4 +1,4 @@
-﻿# Swagger Setup
+﻿# Setup Swagger for the webapi project
 
 1. Create a simple asp.net core webapi created from the default template with no authentication
 
