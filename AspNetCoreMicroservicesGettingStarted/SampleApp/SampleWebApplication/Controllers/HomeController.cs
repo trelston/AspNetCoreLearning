@@ -4,8 +4,10 @@ using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Grpc.Net.Client;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using SampleGrpcService;
 using SampleWebApplication.Models;
 
 namespace SampleWebApplication.Controllers
@@ -21,8 +23,13 @@ namespace SampleWebApplication.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var request = new SampleWebApiServiceClient("https://localhost:5001/", new HttpClient());
-            var response = await request.OrderDetailsAsync(1234);
+            // var request = new SampleWebApiServiceClient("https://localhost:5001/", new HttpClient());
+            // var response = await request.OrderDetailsAsync(1234);
+            
+            var channel = GrpcChannel.ForAddress("https://localhost:5001");  
+            Greeter.GreeterClient greeterClient = new Greeter.GreeterClient(channel);  
+            HelloReply helloReply = greeterClient.SayHello(new HelloRequest(){Name = "Trelston"});  
+            Console.WriteLine("Given Name is " + helloReply.Message); 
             
             return View();
         }

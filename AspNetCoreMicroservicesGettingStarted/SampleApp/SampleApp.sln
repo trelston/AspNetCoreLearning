@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApiService", "Samp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApplication", "SampleWebApplication\SampleWebApplication.csproj", "{45C1BC4D-FFDB-4355-9CCE-EAFF3F9ACF13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleGrpcService", "SampleGrpcService\SampleGrpcService.csproj", "{12024DED-C050-475D-8238-2C5467A05774}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{45C1BC4D-FFDB-4355-9CCE-EAFF3F9ACF13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45C1BC4D-FFDB-4355-9CCE-EAFF3F9ACF13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45C1BC4D-FFDB-4355-9CCE-EAFF3F9ACF13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12024DED-C050-475D-8238-2C5467A05774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12024DED-C050-475D-8238-2C5467A05774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12024DED-C050-475D-8238-2C5467A05774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12024DED-C050-475D-8238-2C5467A05774}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
