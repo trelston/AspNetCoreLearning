@@ -11,3 +11,4 @@ Code hacks/snippets/projects to lean asp.net core
 ## Security
 1. [Requiring Https in aspnet core application](https://github.com/trelston/AspNetCoreLearning/blob/main/Https/HttpsSampleSln/HttpsAspNetCore/Readme.md)
 2. [Requiring HSTS(Strict-Transport-Security header) in aspnet core application](https://github.com/trelston/AspNetCoreLearning/blob/main/Https/HttpsSampleSln/HSTSAspNetCore/Readme.md)
+3. [Requiring Https and HSTS(Strict-Transport-Security header) in aspnet web application](https://github.com/trelston/AspNetCoreLearning/blob/main/Https/HttpsFrameworkSample/HttpsFrameworkSample/Readme.md)
