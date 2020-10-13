@@ -21,12 +21,15 @@
     ```
       
  6. A brief description of the above properties:-
-    a. IncludeSubdomains:- Enables includeSubDomain parameter of the Strict-Transport-Security header
-    b. Preload:- Sets the preload parameter of the Strict-Transport-Security header.
+    1. IncludeSubdomains:- Enables includeSubDomain parameter of the Strict-Transport-Security header
+    
+    2. Preload:- Sets the preload parameter of the Strict-Transport-Security header.
                  Preload is not part of the RFC specification, but is supported by web browsers
                  to preload HSTS sites on fresh install. See https://hstspreload.org/.
-    c. MaxAge:- Sets the max-age parameter of the Strict-Transport-Security header.
-    d. ExcludedHosts:- A list of host names that will not add the HSTS header. 
+    
+    3. MaxAge:- Sets the max-age parameter of the Strict-Transport-Security header.
+    
+    4. ExcludedHosts:- A list of host names that will not add the HSTS header. 
                        localhost is one of the host names excluded by default.
                        "localhost", "127.0.0.1", "[::1]" are harcoded as excluded.
  
