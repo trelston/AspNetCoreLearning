@@ -1,4 +1,4 @@
-﻿#Requiring Https and HSTS(Strict-Transport-Security header) in aspnet web application
+﻿# Requiring Https and HSTS(Strict-Transport-Security header) in aspnet web application
 
 1. Create an aspnet web application from the template.
 
