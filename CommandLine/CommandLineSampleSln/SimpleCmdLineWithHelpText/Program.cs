@@ -10,7 +10,7 @@ namespace SimpleCmdLineWithHelpText
         
         /// <param name="input">A sample input. Default is String.Empty</param>
         /// <param name="output">A sample output. default is String.Empty</param>
-        /// <param name="isTest">Default is false</param>
+        /// <param name="--is-Test">Default is false</param>
         static void Main(string input = "", string output = "", bool isTest = false)
         {
             Console.WriteLine("Console input:- " + input);
