@@ -15,3 +15,4 @@ Code hacks/snippets/projects to lean asp.net core
 
 ## Command Line
 1. [Setup a simple command line program with parameters](https://github.com/trelston/AspNetCoreLearning/blob/main/CommandLine/CommandLineSampleSln/SimpleCmdLineSample/Readme.md)
+2. [Setup a simple command line program with parameters and help](https://github.com/trelston/AspNetCoreLearning/tree/main/CommandLine/CommandLineSampleSln/SimpleCmdLineWithHelpText)
