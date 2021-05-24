@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpsSample", "HttpsSample\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{247F2A73-9D37-47FC-814C-BFB811CED8ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HstsSample", "HstsSample\HstsSample.csproj", "{35C4E820-E450-4E4B-ADB5-476B0B3A180E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,9 +24,14 @@ Global
 		{10A26DBB-482E-4CAF-BC8D-625116AACD67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10A26DBB-482E-4CAF-BC8D-625116AACD67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10A26DBB-482E-4CAF-BC8D-625116AACD67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35C4E820-E450-4E4B-ADB5-476B0B3A180E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C4E820-E450-4E4B-ADB5-476B0B3A180E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C4E820-E450-4E4B-ADB5-476B0B3A180E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C4E820-E450-4E4B-ADB5-476B0B3A180E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{10A26DBB-482E-4CAF-BC8D-625116AACD67} = {A5B546A9-81B2-461E-AD24-976DFA8075E0}
 		{82C3E75E-00F1-48BC-BC5B-9C0DB3DC5905} = {247F2A73-9D37-47FC-814C-BFB811CED8ED}
+		{35C4E820-E450-4E4B-ADB5-476B0B3A180E} = {A5B546A9-81B2-461E-AD24-976DFA8075E0}
 	EndGlobalSection
 EndGlobal
