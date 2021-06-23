@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IHostedServiceHacks", "IHostedServiceHacks\IHostedServiceHacks.csproj", "{CEA2E71A-2224-4FF7-B764-DF6D7071F3EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEA2E71A-2224-4FF7-B764-DF6D7071F3EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA2E71A-2224-4FF7-B764-DF6D7071F3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA2E71A-2224-4FF7-B764-DF6D7071F3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA2E71A-2224-4FF7-B764-DF6D7071F3EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
