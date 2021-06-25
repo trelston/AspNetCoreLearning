@@ -1,0 +1,6 @@
+2021-06-24 20:42:57.4360 Info Message Template Auto Format enabled
+2021-06-24 20:42:57.5734 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-24 20:42:57.7011 Info Adding target FileTarget(Name=allfile)
+2021-06-24 20:42:57.7614 Info Adding target FileTarget(Name=ownFile-web)
+2021-06-24 20:42:57.7652 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2021-06-24 20:42:57.8258 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=67, FilePath=/home/trelston/RiderProjects/AspNetCoreLearning/AspNetCoreHacks/IHostedServiceHacks/bin/Debug/netcoreapp3.1/nlog.config
